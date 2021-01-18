@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- <nav class="navbar">
+        <a href="">Home</a>
+        <a href="/form">Greet</a>
+        <a href="/form-2">Greet V2</a>
+        <a href="/lucky">Get a lucky number</a>
+        <a href="/hello">Say hello</a>
+        <a href="/goodbye">Say goodbye</a>
+    </nav> -->
+    <main id="content">
+    {% block content %}
+    {% endblock %}
+    </main>
+</body>
+</html>
